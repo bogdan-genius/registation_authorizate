@@ -1,0 +1,22 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js",
+    "testReg": "nodemon routes/reg.js",
+    "testAuth": "node routes/auth.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
