@@ -1,22 +1,33 @@
 {
-  "name": "Project",
+  "name": "fullstack",
   "version": "1.0.0",
-  "description": "",
+  "description": "fullstack app with angular and express",
   "main": "index.js",
-  "dependencies": {
-    "crypto": "^1.0.1",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.22",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "node index.js",
-    "testReg": "nodemon routes/reg.js",
-    "testAuth": "node routes/auth.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "server": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Vladilen Minin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "password": "^0.1.1",
+    "position": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
